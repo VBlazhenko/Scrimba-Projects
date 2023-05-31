@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+
+.basic-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 3fr) minmax(440px, 8fr) minmax(240px, 3fr));
+}
+
+
+.card-one span {
+    color: red;
+    font-size: 34px;
+}
+
+.card-one {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.card-one p{
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.card-two img {
+    object-fit: cover;
+    min-height: 80%;
+    width: 80%;
+}
+
+.card-three h6 {
+    font-size: 24px;
+}
+
+.card-three p {
+    font-size: 20px;
+}
+
+.footer-train p{
+    font-size: 16px;
+}
+
+.heading-two {
+    font-size: 24px;
+    padding: 20px;
+    font-weight: bold;
+}
+ 
+/* SECONDARY GRID */
+
+.basic-grid-secondary {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr) minmax(100px, 3fr) minmax(100px, 3fr) minmax(100px, 3fr));
+}
+
+.card-tw-one span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-tw-one p {
+    font-size: 20px;
+}
+
+.card-tw-one img {
+    object-fit: cover;
+    min-height: 50%;
+    width: 90%;
+}
+
+.card-tw-two span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-tw-two p {
+    font-size: 20px;
+}
+
+.card-tw-two img {
+    object-fit: cover;
+    min-height: 50%;
+    width: 90%;
+}
+
+.card-tw-three span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-tw-three p {
+    font-size: 20px;
+}
+
+.card-tw-three img {
+    object-fit: cover;
+    min-height: 50%;
+    width: 90%;
+}
+
+.card-tw-four span {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.card-tw-four p {
+    font-size: 20px;
+}
+
+.card-tw-four img {
+    object-fit: cover;
+    min-height: 50%;
+    width: 90%;
+}
+
+.footer-1 p {
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+
+.footer-2 p {
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+.footer-3 p {
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+.footer-4 p {
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+/* @media (min-width: 768px) {
+    .basic-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 960px) {
+    .basic-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+} */
+
