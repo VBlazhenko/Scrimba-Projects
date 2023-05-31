@@ -16,7 +16,7 @@ html {
 
 .first-p {
     display: flex;
-    color: aqua;
+    color:coral;
     padding-top: 200px;
     font-size: 32px;
     justify-content: center;
@@ -25,7 +25,7 @@ html {
 
 .second-p {
     display: flex;
-    color: aqua;
+    color:coral;
     font-size: 32px;
     justify-content: center;
     align-self: center;
@@ -54,7 +54,7 @@ html {
 .flx-one img, p, h3{
     width: 250px;
     border-radius: 100%;
-    text-align: center;
+
 }
 
 .flx-two img, h3{
@@ -67,17 +67,34 @@ html {
     width: 350px;
     border-radius: 100%;
     text-align: center;
+    
 }
 
-.third-row {
-    border: 1px dotted blue;
-    display: flex;
+.third-row-main {
+    padding-bottom: 10px;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 15%;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    justify-content: center;
-    align-items: center;
-
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    border-radius: 20px;
 }
 
-.third-row img {
-    width: 250px;
-}
+/* .border-blue {
+    border: 1px dotted blue;
+} */
