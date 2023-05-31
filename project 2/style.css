@@ -2,34 +2,82 @@ body {
     margin: 0px;
 }
 
-.picture img, h1{
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
     width: 100%;
-    height: auto;
+    height: 500px;
+    background-image: url(assets/london.jpg);
     background-size: cover;
-    text-align: center;
-    position: relative;
+    background-position: center;
 }
 
-.main-heading {
-    color: greenyellow;
-}
-
-
-/* .secondary-heading {
-    padding-top: 100px;
+.first-p {
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-.second-row h1 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    padding-top: 200px;
     font-size: 32px;
+    justify-content: center;
+    align-self: center;
+}
+
+.second-p {
+    display: flex;
+    color: aqua;
+    font-size: 32px;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.second-row-colour {
+    background-color: lightgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.second-row-heading {
+    text-align: center;
+    font-family: 'Courier New';
+    font-size: 16px;
+    margin-bottom: 50px;
 }
 
 .second-row {
     display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.flx-one img, p, h3{
+    width: 250px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.flx-two img, h3{
+    width: 250px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.flx-three img, h3{
+    width: 350px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.third-row {
+    border: 1px dotted blue;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.third-row img {
+    width: 250px;
 }
