@@ -1,28 +1,45 @@
-.body {
-    margin: 0
-}
+ 
+
+/* CONTAINER */
 
 .container img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
 .container {
+    width: 90%;
+    max-width: 980px;
+    /* BELOW centers content on the page */
+    margin: 0 auto; 
     text-align: center;
-    font-size: 24px;
     font-weight: bold;
+    color: #707070;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #212614;
+    text-align: center;
 }
 
 .heading-span {
-    color: purple;
+    color: #BF832F;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/* COLUMN ONE */
 
 .column-one {
     display: flex;
 }
 
+.div-background {
+    background-color: #312614;
+    color: white;
+}
 
+/* COLUMN TWO */
 
 .column-two {
     display: flex;
