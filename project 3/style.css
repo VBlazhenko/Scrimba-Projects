@@ -3,14 +3,31 @@ body {
     width: 720px;
 }
 
+.p-text{
+    margin: 0;
+    color: #ef5839;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.p-text:hover {
+    color: sandybrown;
+}
+
+/* end */
+
 .section-one {
     background-color: #2e354f;
     padding-bottom: 150px;
+    position: relative;
+    vertical-align: middle;
 }
 
-.section-one h2 {
-
+.main-heading {
+    font-size: 54px;
 }
+
+
+/* section two */
 
 .section-two {
     background-color: #fff;
@@ -50,7 +67,7 @@ img {
 
 .section-three {
     background-color: #2e354f;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 }
 
 .section-three p, a {
@@ -63,12 +80,19 @@ img {
     word-wrap: break-word;
 }
 
-.p-text{
-    margin: 0;
-    color: #ef5839;
-    font-family:'Courier New', Courier, monospace;
+.btn-one {
+    display: inline-block;
+    background-color: #ef5839;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
-.p-text:hover {
-    color: sandybrown;
+.btn-two {
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    color: black;
+    margin: 0;
 }
