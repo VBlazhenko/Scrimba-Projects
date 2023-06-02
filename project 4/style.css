@@ -1,4 +1,24 @@
- 
+.div-background {
+    background-color: #312614;
+    color: white;
+    padding: 1em;
+} 
+
+p {
+    margin-top: 0;
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 75%;
+}
 
 /* CONTAINER */
 
@@ -12,7 +32,6 @@
     max-width: 980px;
     /* BELOW centers content on the page */
     margin: 0 auto; 
-    text-align: center;
     font-weight: bold;
     color: #707070;
 }
@@ -32,15 +51,12 @@ h1 {
 
 .column-one {
     display: flex;
-}
-
-.div-background {
-    background-color: #312614;
-    color: white;
+    margin: 1em 0;
 }
 
 /* COLUMN TWO */
 
 .column-two {
     display: flex;
+    margin: 1em 0;
 }
