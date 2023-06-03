@@ -20,6 +20,14 @@ p {
     width: 70%;
 }
 
+@media (max-width: 600px) {
+    .col-1, 
+    .col-2,
+    .col-3 {
+        width: 100%
+    }
+}
+
 /* CONTAINER */
 
 .container img {
@@ -63,19 +71,37 @@ h1 {
     margin: 1em 0;
 }
 
+/* media always comes after the default selector
+inm my case, media will come after column 1 and 2
+since we are applying that properties first */
+
+@media (max-width: 600px) {
+    .column-one {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .column-two {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 /* media */
 
 /* from a minimum width of 500px and bigger */
 /* smallest to biggest */
+/* e.g.,
 @media (min-width: 500px) {
     body {
         background-color: white;
     }
-}
+} */
 
 /* from a minimum width of 750px and bigger */
-@media (min-width: 750px) {
+/* @media (min-width: 750px) {
     body {
         background-color: wheat;
     }
-}
+} */
+
