@@ -62,3 +62,20 @@ h1 {
     justify-content: space-between;
     margin: 1em 0;
 }
+
+/* media */
+
+/* from a minimum width of 500px and bigger */
+/* smallest to biggest */
+@media (min-width: 500px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* from a minimum width of 750px and bigger */
+@media (min-width: 750px) {
+    body {
+        background-color: wheat;
+    }
+}
