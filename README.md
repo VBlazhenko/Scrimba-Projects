@@ -14,3 +14,5 @@ Some of the projects i made from scrimba <br>
 -Basic zoo page <br>
 ![Capture](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/c763da84-0632-4250-8a1e-801a146e11d5)<br>
 <br>
+*Project 5 <br>
+- nav bar<br>
