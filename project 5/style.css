@@ -98,6 +98,15 @@ nav a:focus {
     }
 
     nav li {
-        margin: .5em 0;
+        margin: .5em 0 ;
     }
+}
+
+
+/* ===================  HEADER END  ================= */
+
+/* ================== MAIN CONTENT =================== */
+
+.container {
+    margin: 0 auto;;
 }
