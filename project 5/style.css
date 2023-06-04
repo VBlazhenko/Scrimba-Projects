@@ -7,26 +7,75 @@ font-family: 'Ubuntu', sans-serif;
 body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 /* =================
 Typography
 ================= */
 
-h1 {
+h1, 
+h2,
+h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+}
+
+h1 {
     font-size: 2rem;
     margin: 0;
 }
 
+a {
+    color: #1792d2;
+}
+
+a:hover,
+a:focus {
+    color: #143774;
+}
+
+strong {
+    font-weight: 700;
+}
+
+/* h1 subtitle */
 .subtitle {
     font-weight: 700;
     color: #1792d2;
     font-size: .75rem;
     margin: 0;
 }
+
+.article-title {
+    font-size: 1.5rem;
+}
+
+.article-read-more,
+.article-info {
+    font-size: .875rem;
+}
+
+.article-read-more {
+    color: #1792d2;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+    color: #143774;
+    text-decoration: underline;
+}
+
+
 
 /* =================
 Layout
@@ -38,25 +87,30 @@ Layout
     margin: 0 auto;
 }
 
-.container-nav {
+.container-flex {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-}
-
-@media (max-width: 675px) {
-    .container-nav {
-        flex-direction: column;
-        
-    }
-
-    header {
-        text-align: center;
-    }
 }
 
 header {
     background: #f8f8f8;
     padding: 2em 0;
+    text-align: center;
+}
+
+@media (min-width: 675px) {
+    .container-flex {
+        flex-direction: row;
+    }
+    
+    main {
+        width: 75%;
+    }
+    
+    aside {
+        width: 20%;
+    }
 }
 
 /* navigation */
@@ -96,17 +150,8 @@ nav a:focus {
     nav ul {
         flex-direction: column;
     }
-
+    
     nav li {
-        margin: .5em 0 ;
+        margin: .5em 0;
     }
-}
-
-
-/* ===================  HEADER END  ================= */
-
-/* ================== MAIN CONTENT =================== */
-
-.container {
-    margin: 0 auto;;
 }
