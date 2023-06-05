@@ -16,6 +16,11 @@ img {
     display: block;
 }
 
+.image-full { 
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
 /* =================
 Typography
 ================= */
@@ -32,6 +37,10 @@ h3 {
 h1 {
     font-size: 2rem;
     margin: 0;
+}
+
+h3 {
+    color: #1792d2;
 }
 
 a {
@@ -89,6 +98,10 @@ strong {
     font-size: 1rem ;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
+}
+
+.widget-recent-post-title {
+    color: #143774;
 }
 
 /* =================
