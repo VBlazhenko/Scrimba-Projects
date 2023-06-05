@@ -16,9 +16,9 @@ Some of the projects i made from scrimba <br>
 <br>
 *Project 5 <br>
 - about me EXAMPLE<br>
+![a](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/6d46bfc6-30c3-4460-a4dd-9e784c18bf49)<br>
 ![b](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/018c1959-52b0-4f2b-a674-e7debd10b60b)<br>
 ![c](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/09fc3cdc-eed8-470c-8c88-645862ec2c52)<br>
+Responsiveness supported<br>
 ![d](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/30eda213-e683-41a6-9110-02f72ebf0687)<br>
-![a](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/6d46bfc6-30c3-4460-a4dd-9e784c18bf49)<br>
 <br>
-
