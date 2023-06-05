@@ -1,6 +1,6 @@
 # Scrimba-Projects<br>
 Some of the projects i made from scrimba <br>
-<h3>*Project 1 </h3><br>
+<h3>*Project 1 </h3>
 -BBC Clone <br>
 <br>
 *Project 2 <br>
