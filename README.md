@@ -22,3 +22,5 @@ Some of the projects i made from scrimba <br>
 Responsiveness supported<br>
 ![d](https://github.com/VBlazhenko/Scrimba-Projects/assets/78543274/30eda213-e683-41a6-9110-02f72ebf0687)<br>
 <br>
+* Project 6 <br>
+- One page email form <br>
