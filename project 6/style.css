@@ -50,7 +50,7 @@ h2 + p {
 
 .fine-print {
     font-size: 0.625rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 strong { font-weight: 900; }
