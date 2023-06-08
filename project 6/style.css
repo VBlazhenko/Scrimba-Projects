@@ -85,6 +85,26 @@ strong { font-weight: 900; }
 }
 
 
+/* =================
+   form queries 
+   ================= */
+
+.email-collector {
+    width: 80%;
+    max-width: 300px;
+}
+
+input,
+.btn {
+    width: 100%;
+}
+
+input {
+    font-family: inherit;
+    margin-bottom: .75em ;
+    text-align: inherit;
+    padding: .25em;
+}
 
 /* =================
    media queries 
