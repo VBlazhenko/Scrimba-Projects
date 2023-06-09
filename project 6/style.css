@@ -45,11 +45,15 @@ h2 + p {
 }
 
 .top-text {
+    padding-top: 2px;
     font-size: 0.9rem;
     color: #F18119;
     font-weight: 900;
     text-transform: uppercase;
     order: -1;
+    margin: 0;
+    border-top: 5px solid #F18119;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 
 .fine-print {
@@ -90,6 +94,7 @@ strong { font-weight: 900; }
    ================= */
 
 .email-collector {
+    text-align: center;
     width: 80%;
     max-width: 300px;
 }
@@ -97,6 +102,7 @@ strong { font-weight: 900; }
 input,
 .btn {
     width: 100%;
+    border-radius: 3px;
 }
 
 input {
@@ -104,6 +110,30 @@ input {
     margin-bottom: .75em ;
     text-align: inherit;
     padding: .25em;
+    border: 1px solid #404040;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1em, 1.5em;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to left, #FF713B, #FFA51D);
+    color: white;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.1);
 }
 
 /* =================
